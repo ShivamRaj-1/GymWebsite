@@ -39,6 +39,7 @@ export function ImageSlider() {
         setCurrentSlideIndex(currentSlideIndex + 1);
       }
     }, 3000);
+
     return () => clearTimeout(timer);
   }, [currentSlideIndex]);
 
@@ -51,7 +52,7 @@ export function ImageSlider() {
   };
 
   const pageToJoin = () => {
-    navigate('./joining')
+    navigate('./signin')
   }
 
   return (

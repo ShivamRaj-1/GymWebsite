@@ -5,6 +5,7 @@
   align-items: center;
   height: 100vh;
   background:url("https://cdn.pixabay.com/photo/2016/05/27/22/30/workout-1420741_1280.jpg");
+  background-size: cover;
   width: 100%;
 }
 
@@ -16,10 +17,10 @@
   width: 35%;
   overflow-y: scroll;
   max-height:60vh;
-  position: fixed;
+  /* position: fixed; */
 }
 
-.inputDiv {
+.inputDiv { 
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;

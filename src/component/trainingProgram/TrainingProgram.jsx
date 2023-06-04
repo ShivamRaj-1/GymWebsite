@@ -2,7 +2,6 @@ import React, { Fragment, useState } from "react";
 import "../../App.css";
 import styles from "./TrainingProgram.module.css";
 import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
-import { FiArrowRightCircle } from "react-icons/fi";
 import { TrainingProgram_data } from '../../utils/TrainingProgram_data';
 
 export default function TrainingProgram() {
